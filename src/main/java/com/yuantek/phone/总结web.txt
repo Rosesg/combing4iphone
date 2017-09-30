@@ -1,0 +1,6 @@
+1. 现在流行前后端分离，JSON作为通用的轻量数据格式适合作为前后端交互的数据接口，接口的设计风格就是restful
+2. 这样设计出来的后端因为与前端高度分离，不光能适配web端，也能适配IOS和Android app和微信app，
+   可以一套后台接口多个用户前端系统使用（安卓，IOS，APP也算前端）
+3. 启动顺序：context-param   Listener    Filter  Servlet
+4.
+

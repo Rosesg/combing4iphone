@@ -1,0 +1,23 @@
+创建students表
+--mysql语法
+create table students(
+    id int(5) primary key,
+    name varchar(10),
+    sal double(8,2)
+);
+--oracle语法
+create table students(
+    id number(5) primary key,
+    name varchar2(10),
+    sal number(8,2)
+);
+--
+use mldn;
+drop table if exists item;
+
+create table item(
+
+    iid     int,
+    title   varchar(50),
+    constraint pk_iid primary key(iid)
+);

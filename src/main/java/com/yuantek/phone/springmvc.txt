@@ -1,0 +1,7 @@
+1. ModelAndView mv = new ModelAndView();
+   // 填充数据
+   mv.addObject("list",list);
+   // 设置视图
+   mv.setViewName("order/itemsList");
+   return mv;
+2.
